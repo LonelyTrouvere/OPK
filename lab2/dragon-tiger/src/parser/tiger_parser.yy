@@ -106,6 +106,10 @@ using utils::nl;
 
 %nonassoc FUNCTION VAR TYPE DO OF ASSIGN;
 %left UMINUS;
+%left MINUS;
+%left PLUS;
+%left DIVIDE;
+%left TIMES;
 
 // Declare grammar rules and production actions
 
